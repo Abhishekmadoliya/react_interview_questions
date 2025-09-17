@@ -4,6 +4,7 @@ import Products from './component/Fetchproducts/Products';
 import Fav from './component/Fetchproducts/Fav';
 import Accordian from './component/Accordian';
 import Otp from './component/Opt/Otp';
+import Search from './component/Search&filter/Search';
 
 const App = () => {
 
@@ -36,7 +37,7 @@ const App = () => {
       {/* <Products/> */}
       <Router>
         <Routes>
-          <Route path='/' element={<Otp/>}/>
+          <Route path='/' element={<Search/>}/>
 
 
 
