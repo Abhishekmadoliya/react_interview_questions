@@ -6,6 +6,7 @@ import Accordian from './component/Accordian';
 import Otp from './component/Opt/Otp';
 import Search from './component/Search&filter/Search';
 import Filter from './component/Search&filter/Filter';
+import Togglepass from './component/Togglepassword/Togglepass';
 
 const App = () => {
 
@@ -38,7 +39,8 @@ const App = () => {
       {/* <Products/> */}
       <Router>
         <Routes>
-          <Route path='/' element={<Filter/>}/>
+          <Route path='/' element={<Togglepass/>}/>
+          {/* <Route path='/' element{<Filter/>} /> */}
 
 
 
