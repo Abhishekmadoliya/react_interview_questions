@@ -7,6 +7,7 @@ import Otp from './component/Opt/Otp';
 import Search from './component/Search&filter/Search';
 import Filter from './component/Search&filter/Filter';
 import Togglepass from './component/Togglepassword/Togglepass';
+import Pagination from './component/pagination/Pagination';
 
 const App = () => {
 
@@ -39,7 +40,9 @@ const App = () => {
       {/* <Products/> */}
       <Router>
         <Routes>
-          <Route path='/' element={<Togglepass/>}/>
+          <Route path='/' element={<Pagination/>}/>
+
+          {/* <Route path='/' element={<Togglepass/>}/> */}
           {/* <Route path='/' element{<Filter/>} /> */}
 
 
